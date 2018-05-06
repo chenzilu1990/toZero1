@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello </title>
+	
+	
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+<body>
+	
+	
+		
+
+	<ul id="app">
+		<li v-for="item in videos">
+			<video width="320"  controls loop autoplay>
+ 				<source :src="item.url" type="video/mp4">
+ 			</video>
+ 			<!-- <p style="text-align: center">{{item.name}}</p> -->
+ 			<div style="text-align: center">
+ 			<a :href="item.url">{{item.name}}</a>
+ 			</div>
+ 		</li>
+		<!-- <p>{{item.name}}</p> -->
+	</ul>
+
+
+
+	<script type="text/javascript" src="./js/vue.js"> </script>
+	<script src="./js/vue-resource.min.js"></script>
+	
+	<script type="text/javascript" src="./js/test.js"></script>
+	
+	
+
+</body>
+</html>

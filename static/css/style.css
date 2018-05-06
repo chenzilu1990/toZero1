@@ -1,0 +1,17 @@
+ul {
+	list-style: none;
+	margin: auto;
+	width: 90%;
+}
+li {
+	float: left;
+}
+
+
+h1 {
+	float: right;
+}
+
+p {
+	text-align: : center;
+}
